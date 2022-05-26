@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+}
+.wrapper{
+    width:100% ;
+    margin: auto;
+   
+}
+.img{
+    position: relative;
+  top: 0;
+  left: 0;
+    max-width: 100%;
+    height: auto;
+      
+  }
+
+.container{
+    max-width: 100%;
+    margin: 0px auto;
+
+}
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+#logo{
+    padding: 5px 0px;
+}
+#logo img{
+    margin-left: 100px;
+    max-width: 150px;
+    height: auto;
+    position: relative;
+    top: -950px;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font: 1em  sans-serif;
+}
+#main-menu li{
+    position: relative;
+    top: -940px;
+    
+}
+#main-menu li a{
+    
+    font-size: 28px;
+    color: #54b0f7ea;
+    display: block;
+    padding: 40px 20px 15px 20px ;
+    text-decoration: none;
+}
+.icon {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    top: -900px;
+    left: -150px;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+}
+.a{
+    text-align: center;
+    position: relative;
+    top: -941px;
+    left: -350px;
+    color: #79c5ff;
+    font: 1.2em  sans-serif;
+}
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 5px solid transparent;
+    padding: 0.375rem 1.3rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.6rem;
+}
+.btn-buy{
+    margin: 20px;
+    color: #fff;
+    background-color: #47b0ff;
+    border-color: #47b0ff;
+}
+.btn-buy:hover{
+    cursor: pointer;
+    right: 7%;
+    -webkit-box-shadow: 3px 10px 5px rgba(0, 0, 0, 0.2);
+            box-shadow: 3px 10px 5px rgba(0, 0, 0, 0.2);
+         
+}
+.btn-learn{
+    margin: 20px;
+    color: #47b0ff;
+    background-color: #fff;
+    border-color: #47b0ff;
+}
+.btn-learn:hover{
+    cursor: pointer;
+}
