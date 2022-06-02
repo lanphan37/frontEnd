@@ -36,19 +36,19 @@ nav{
     position: relative;
     top: -950px;
 }
-#main-menu{
+#menu{
     display: flex;
     list-style: none;
     margin: 0px;
     padding: 0px;
     font: 1em  sans-serif;
 }
-#main-menu li{
+#menu li{
     position: relative;
     top: -940px;
     
 }
-#main-menu li a{
+#menu li a{
     
     font-size: 28px;
     color: #54b0f7ea;
